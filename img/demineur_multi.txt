@@ -1,0 +1,4 @@
+taille du plateau de jeu: 16 lignes x 36 colonnes
+nombre de joueurs: 2 - 8
+
+js session 2 

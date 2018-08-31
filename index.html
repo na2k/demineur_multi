@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Démineur V2</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" charset="utf-8"></script>
+  <link rel="icon" href="img/demineur.png">
+</head>
+<body>
+  <div class="classement">
+    <p id="croix">Fermer X</p>
+    <h1 class="title">Résultat</h1>
+    <table id="tableauScores">
+      <tr>
+        <!-- <td id="res1"></td><td id="score1"></td> -->
+      </tr>
+      <tr>
+        <!-- <td id="res2"></td><td id="score2"></td> -->
+      </tr>
+      <tr>
+        <!-- <td id="res3"></td><td id="score3"></td> -->
+      </tr>
+      <tr>
+        <!-- <td id="res4"></td><td id="score4"></td> -->
+      </tr>
+      <tr>
+        <!-- <td id="res5"></td><td id="score5"></td> -->
+      </tr>
+      <tr>
+        <!-- <td id="res6"></td><td id="score6"></td> -->
+      </tr>
+      <tr>
+        <!-- <td id="res7"></td><td id="score7"></td> -->
+      </tr>
+      <tr>
+        <!-- <td id="res8"></td><td id="score8"></td> -->
+      </tr>
+    </table>
+  </div>
+
+  <header>
+    <div id="titre">
+      <h1 class="title">DEMINEUR 2.0</h1>
+      <p class="description">Version multijoueur du démineur</p>
+    </div>
+    <div id="logo">
+      <img src="img/newlogo.png" id="imgLogo" width="80px" height="80px" alt="mine">
+    </div>
+  </header>
+  <div id="menu">
+    <table id="tabMenu">
+      <tr>
+        <td><p>Nombre de joueurs</p></td>
+        <td> <input type="range" class="range" id="btn1" min="2" max="8" step="1" value="2"></td><td><p id="nbJoueurs">2</p></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="textJ1" value="Joueur 1"></td>
+        <td><input type="text" id="textJ2" value="Joueur 2"></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="textJ3" value="Joueur 3"></td>
+        <td><input type="text" id="textJ4" value="Joueur 4"></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="textJ5" value="Joueur 5"></td>
+        <td><input type="text" id="textJ6" value="Joueur 6"></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="textJ7" value="Joueur 7"></td>
+        <td><input type="text" id="textJ8" value="Joueur 8"></td>
+      </tr>
+      <tr>
+        <td> <input type="button" class="btn" id="btn3" value="Classement"></td>
+        <td> <input type="button" class="btn" id="btn2" value="Commencer"></td><td></td>
+      </tr>
+    </table>
+    <table id="tabMenu2">
+      <tr>
+        <td id="res1"></td><td id="score1"></td>
+        <td id="res5"></td><td id="score5"></td>
+      </tr>
+      <tr>
+        <td id="res2"></td><td id="score2"></td>
+        <td id="res6"></td><td id="score6"></td>
+      </tr>
+      <tr>
+        <td id="res3"></td><td id="score3"></td>
+        <td id="res7"></td><td id="score7"></td>
+      </tr>
+      <tr>
+        <td id="res4"></td><td id="score4"></td>
+        <td id="res8"></td><td id="score8"></td>
+      </tr>
+    </table>
+  </div>
+  <p id="nombreMines"></p>
+  <div id="chronometre">
+    <p id="chrono"></p>
+  </div>
+  <table id="game">
+  </table>
+</body>
+</html>
